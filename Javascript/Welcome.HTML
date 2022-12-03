@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+// const person={
+// name:'John',
+// age:20
+// };
+// document.write(typeof person);
+
+// let person ={
+// name:'john',
+// age:20
+// };
+
+
+// const person={
+// name:'john',
+// age:20
+// };
+// document.write(person.name);
+
+// const student = {
+//  name: 'John',
+//  age: 20,
+// };
+// document.write(person["name"]); 
+
+// const student = {
+//  name: 'John',
+//  age: 20,
+// marks:{
+// science:70,
+// mathematic:75
+// }
+// }
+// document.write(student.marks.science);
+
+// const person={
+// name:'sam',
+// age:30,
+// greet:function(){Document.write('hello')}
+// }
+// person.greet();
+
+// function person(){
+// this.name='john'
+// this.age=23
+// }
+// const person = new Person();
+
+// function person(){
+// this.name='john',
+// this.age=25,
+// this.greet=function(){
+// document.write('hello');
+// }
+// const person1=new Person();
+// const person2=new Person();
+// document.write(person1.name);
+// document.write(person2.name);
+
+// function Person () {
+//  this.name = 'John',
+//  }
+// const person1 = new Person();
+// document.write(person1.name); 
+
+// function Person (person_name, person_age, person_gender) {
+//  this.name = person_name,
+//  this.age = person_age,
+//  this.gender = person_gender,
+//  this.greet = function () {
+//  return ('Hi' + ' ' + this.name);
+//  }
+// }
+// const person1 = new Person('john',23,'male');
+// const person2 = new Person('john',23,'female');
+// document.write(person1.name); 
+// document.write(person2.name); 
+
+// let person = {
+//  name: 'Sam'
+// }
+
+// function Person () {
+//  this.name = 'Sam'
+// }
+// let person1 = new Person();
+// let person2 = new Person()
+
+// function Person () {
+//  this.name = 'Sam'
+// }
+// let person1 = new Person();
+// let person2 = new Person();
+// person1.age=20;
+
+// let person={
+//     name:'Sam'
+// }
+// document.write(person.name);
+// let student=Person;
+// student.name='John';
+// document.write(person.name);
+
+// function Person(){
+// this.name='John',
+// this.age='23'
+// }
+// let person1=new person();
+// let person2=new person();
+// person.prototype.gender='Male';
+// document.write(person1.gender);
+// document.write(person1.gender);
+
+// let a = new Object();
+// let b = new Object();
+// let c = new Object();
+// let d = new Object();
+
+// const student = {
+//  firstName: 'Monica',
+//  get getName() {
+//  return this.firstName;
+// }
+// };
+// document.write(student.firstName);
+// document.write(student.getName); 
+// document.write(student.getName());
+
+
+// const student = {
+//  firstName: 'Monica',
+//  set changeName(newName) {
+//  this.firstName = newName;
+//  }
+// };
+// document.write(student.firstName); 
+// student.changeName = 'Sarah';
+
+// const student = {
+//  firstName: 'Monica'
+// }
+// Object.defineProperty(student, "getName", {
+//  get : function () {
+//  return this.firstName;
+//  }
+// });
+// Object.defineProperty(student, "changeName", {
+//  set : function (value) {
+//  this.firstName = value;
+//  }
+// });
+// document.write(student.firstName); 
+// student.changeName = 'Sarah';
+// document.write(student.firstName); 
+
+// const person = {
+//  name: 'John',
+//  greet: function() { console.log('hello'); }
+// };
+
+// const person={
+// name:'John',
+// greet:function(){document.write('hello');}
+// };
+// person.name;
+// person.greet();
+
+// let number='23.32';
+// let result=paraseInt(number);
+// document.write(result);
+
+// let student={ };
+// student.name='John';
+// student.greet=function(){
+// document.write('hello')
+// }
+// student.greet();
+
+// const person={
+// name:'John'
+// age:30,
+// greet:function(){document.write('the name is'+' '+this.name);}
+// };
+
+// const person={
+// name:'John',
+// age:30,
+// greet:function(){
+// let surname='doe';
+// document.write('The name is'+' '+ this.name+' '+surname);}
+// }
+// person.greet();
+
+// function Person () {
+//  this.name = 'John',
+//  this.age = 23
+// }
+// const person1=new Person();
+// const person2=new Person();
+
+// function Person(){
+// this.name='John',
+// this.age=23
+// }
+// const person=new Person();
+// document.write(Person.prototype);
+
+// function Person(){
+// this.name='John',
+// this.age=23
+// }
+// const person1=new Person();
+// const person2=new Person();
+// Person.prototype.gender='male';
+// document.write(Person.prototype);
+// document.write(person1.gender);
+// document.write(person2.gender);
+
+// function Person(){
+// this.name='John'
+// this.age=23
+// }
+// const person1=new Person();
+// const person2=new Person();
+// Person.prototype.greet=function(){
+// document.write('hello'+' '+ this.name);    
+// }
+// person1.greet(); 
+// person2.greet(); 
+
+// function Person() {
+//  this.name = 'John'
+// }
+// Person.prototype.age = 20;
+// const person1 = new Person();
+// console.log(person1.age);
+// Person.prototype = { age: 50 }
+// const person3 = new Person();
+// console.log(person3.age); 
+// console.log(person1.age); 
+
+// function Person() {
+//  this.name = 'John'
+// }
+// person.prototype.name='peter';
+// person.prototype.age=23;
+// const person1 = new Person();
+// console.log(person1.name); 
+// console.log(person1.age); 
+
+// function Person () {
+//  this.name = 'John'
+// }
+// Person.prototype.age = 24;
+// const person = new Person();
+// document.write(person._proto_);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
